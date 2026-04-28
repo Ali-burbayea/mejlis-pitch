@@ -6,11 +6,11 @@ Built on the Mejlis design system: midnight canvas, saffron primary, Tajawal dis
 
 ## Run
 
-Open `Mejlis Pitch.html` in a browser, or serve the directory with any static server:
+Open `index.html` in a browser, or serve the directory with any static server:
 
 ```bash
 python -m http.server 8000
-# then visit http://localhost:8000/Mejlis%20Pitch.html
+# then visit http://localhost:8000/
 ```
 
 The HTML loads React, ReactDOM, and Babel from CDN — no build step.
@@ -29,7 +29,7 @@ Both iOS and Android frames render side-by-side.
 ## Structure
 
 ```
-Mejlis Pitch.html         entry point
+index.html                entry point
 styles.css                screen + component styles
 ds/colors_and_type.css    Mejlis design tokens
 ds/assets/                pattern + logo SVGs

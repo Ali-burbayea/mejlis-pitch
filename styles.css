@@ -1,5 +1,15 @@
 @import url('ds/colors_and_type.css');
 
+/* Pitch-green canvas override — keeps saffron/cream contrast intact */
+:root {
+  --pitch-950: #07251A;
+  --pitch-900: #0E3727;
+  --pitch-800: #154A36;
+  --bg-canvas:  var(--pitch-950);
+  --bg-surface: var(--pitch-900);
+  --bg-raised:  var(--pitch-800);
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 
 html, body {
@@ -10,7 +20,7 @@ html, body {
 }
 
 body {
-  background: radial-gradient(circle at 50% -10%, #1a2240 0%, #0B0F1A 55%);
+  background: radial-gradient(circle at 50% -10%, #1B5C42 0%, var(--pitch-950) 55%);
   min-height: 100vh;
   padding: 32px 16px 48px;
 }

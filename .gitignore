@@ -1,0 +1,22 @@
+# Claude config
+.claude/
+
+# Legacy prototype (pre-Mejlis Pitch) — root files only
+/Football Booking.html
+/app.css
+/tokens.css
+/components.jsx
+/data.jsx
+/screens.jsx
+/ios-frame.jsx
+/assets/
+/_design/
+/serve.ps1
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
